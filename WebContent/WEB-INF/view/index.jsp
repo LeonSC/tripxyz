@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="h3">十分题, 一至十分您会打几分?</p>
-				<p>1, 您是否喜欢动漫呢?</p>
+				<p><strong>1, 您是否喜欢动漫呢?</strong></p>
 				<p>
 					<input type="radio" value="1" name="one"/> 1 &nbsp;
 					<input type="radio" value="2" name="one"/> 2 &nbsp;
@@ -23,7 +23,7 @@
 					<input type="radio" value="9" name="one"/> 9 &nbsp;
 					<input type="radio" value="10" name="one"/> 10 &nbsp;
 				</p>
-				<p>2, 您对你的动漫知识打多少分?</p>
+				<p><strong>2, 您对你的动漫知识打多少分?</strong></p>
 				<p>
 					<input type="radio" value="1" name="two"/> 1 &nbsp;
 					<input type="radio" value="2" name="two"/> 2 &nbsp;
@@ -36,7 +36,7 @@
 					<input type="radio" value="9" name="two"/> 9 &nbsp;
 					<input type="radio" value="10" name="two"/> 10 &nbsp;
 				</p>
-				<p>3, 您喜欢旅游吗?</p>
+				<p><strong>3, 您喜欢旅游吗?</strong></p>
 				<p>
 					<input type="radio" value="1" name="three"/> 1 &nbsp;
 					<input type="radio" value="2" name="three"/> 2 &nbsp;
@@ -49,7 +49,7 @@
 					<input type="radio" value="9" name="three"/> 9 &nbsp;
 					<input type="radio" value="10" name="three"/> 10 &nbsp;
 				</p>
-				<p>4, 近期有出游的考虑吗?</p>
+				<p><strong>4, 近期有出游的考虑吗?</strong></p>
 				<p>
 					<input type="radio" value="1" name="four"/> 1 &nbsp;
 					<input type="radio" value="2" name="four"/> 2 &nbsp;
@@ -62,7 +62,7 @@
 					<input type="radio" value="9" name="four"/> 9 &nbsp;
 					<input type="radio" value="10" name="four"/> 10 &nbsp;
 				</p>
-				<p>5, 会考虑日本游吗?</p>
+				<p><strong>5, 会考虑日本游吗?</strong></p>
 				<p>
 					<input type="radio" value="1" name="five"/> 1 &nbsp;
 					<input type="radio" value="2" name="five"/> 2 &nbsp;
@@ -75,7 +75,7 @@
 					<input type="radio" value="9" name="five"/> 9 &nbsp;
 					<input type="radio" value="10" name="five"/> 10 &nbsp;
 				</p>
-				<p>6, 会考虑结伴同游吗?</p>
+				<p><strong>6, 会考虑结伴同游吗?</strong></p>
 				<p>
 					<input type="radio" value="1" name="six"/> 1 &nbsp;
 					<input type="radio" value="2" name="six"/> 2 &nbsp;
@@ -88,7 +88,7 @@
 					<input type="radio" value="9" name="six"/> 9 &nbsp;
 					<input type="radio" value="10" name="six"/> 10 &nbsp;
 				</p>
-				<p>7, 可能会和陌生人一起出游吗?</p>
+				<p><strong>7, 可能会和陌生人一起出游吗?</strong></p>
 				<p>
 					<input type="radio" value="1" name="seven"/> 1 &nbsp;
 					<input type="radio" value="2" name="seven"/> 2 &nbsp;
@@ -101,7 +101,7 @@
 					<input type="radio" value="9" name="seven"/> 9 &nbsp;
 					<input type="radio" value="10" name="seven"/> 10 &nbsp;
 				</p>
-				<p>8, 您希望开发出只属于自己的风景吗?</p>
+				<p><strong>8, 您希望按自己的兴趣去游玩?</strong></p>
 				<p>
 					<input type="radio" value="1" name="eight"/> 1 &nbsp;
 					<input type="radio" value="2" name="eight"/> 2 &nbsp;
@@ -114,7 +114,7 @@
 					<input type="radio" value="9" name="eight"/> 9 &nbsp;
 					<input type="radio" value="10" name="eight"/> 10 &nbsp;
 				</p>
-				<p>9, 您是否期待参加日本的动漫展?</p>
+				<p><strong>9, 您是否期待参加日本的动漫展?</strong></p>
 				<p>
 					<input type="radio" value="1" name="two"/> 1 &nbsp;
 					<input type="radio" value="2" name="two"/> 2 &nbsp;
@@ -128,13 +128,53 @@
 					<input type="radio" value="10" name="two"/> 10 &nbsp;
 				</p>
 				<p class="h3">选择题</p>
-				<p>1, 您的职业?</p>
+				<p><strong>1, 您的职业?</strong></p>
 				<p>
 					<input type="radio" value="1" name="ten" checked/> 公职人员 &nbsp;
 					<input type="radio" value="2" name="ten"/> 企业员工 &nbsp;
 					<input type="radio" value="3" name="ten"/> 企业老板 &nbsp;
 					<input type="radio" value="4" name="ten"/> 学生 &nbsp;
 				</p>
+				<p><strong>2, 您的学历?</strong></p>
+				<p>
+					<input type="radio" value="1" name="eleven"/> 大专 &nbsp;
+					<input type="radio" value="2" name="eleven" checked/> 学士 &nbsp;
+					<input type="radio" value="3" name="eleven"/> 硕士及以上 &nbsp;
+					<input type="radio" value="4" name="eleven"/> 保密 &nbsp;
+				</p>
+				<p><strong>3, 对于日本游, 您的心理价位是多少?</strong></p>
+				<p>
+					<input type="radio" value="1" name="twelve"/> 5000元及以下 &nbsp;
+					<input type="radio" value="2" name="twelve" checked/> 5000元到9000元 &nbsp;
+					<input type="radio" value="3" name="twelve"/> 9000元到14000元 &nbsp;
+					<input type="radio" value="4" name="twelve"/> 14000元以上 &nbsp;
+				</p>
+				<p><strong>4, 如果有时间, 您希望是什么季节去日本旅游?</strong></p>
+				<p>
+					<input type="radio" value="1" name="thirteen"/> 春 &nbsp;
+					<input type="radio" value="2" name="thirteen" checked/> 夏 &nbsp;
+					<input type="radio" value="3" name="thirteen"/> 秋 &nbsp;
+					<input type="radio" value="4" name="thirteen"/> 冬 &nbsp;
+				</p>
+				<p><strong>回答到这里, 如果您愿意留下您的手机号, 我们在开业后愿意奉上<mark>100元</mark>代金券供您享用.</strong></p>
+				<p>
+					<strong>您的手机号:</strong> &nbsp;<input type="text" value="" name="mobile" style="border:none;border-bottom: 1px solid #000"/>
+				</p>
+				<br/>
+				<p><strong>附加开放问答题, 每题会根据回答内容奉上50-100元不等的代金券:</strong></p>
+				<p><strong>1, 您喜欢君的名字这部动画电影吗? 如果您发现, 这部电影几乎是实体取景, 您愿意去追寻这样的足迹吗? 比如:</strong></p>
+				<p><img src="public/pic1.jpg"/></p>
+				<p><img src="public/pic1-1.jpg"/></p>
+				<p><img src="public/pic2.jpg"/></p>
+				<p><img src="public/pic2-1.jpg"/></p>
+				<p><img src="public/pic3.jpg"/></p>
+				<p><img src="public/pic3-1.jpg"/></p>
+				<p><img src="public/pic4.jpg"/></p>
+				<p><img src="public/pic4-1.jpg"/></p>
+				<p><strong>您是否对这样的情境感兴趣呢?为什么?更好的意见?</strong></p>
+				<p><textarea style="width:90%;height:15rem" name="answerone"></textarea></p>
+				<p><strong>2, 您希望在日本, 看到什么样的场景? 足迹? 故事? 或者您希望设计一条独一无二的路线?</strong></p>
+				<p><textarea style="width:90%;height:15rem" name="answertwo"></textarea></p>
 			</div>
 		</div>
 	</div>
