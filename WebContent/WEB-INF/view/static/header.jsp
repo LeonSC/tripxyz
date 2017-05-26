@@ -14,7 +14,6 @@
 <style type="text/css">
 html {min-height:100%}
 p {overflow:hidden}
-.carousel img {width:100%;max-height:23rem}
 *{outline:0 none !important; blr:expression(this.onFocus=this.blur());} 
 </style>
 <script>

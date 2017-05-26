@@ -42,7 +42,6 @@ public final class MongoDBConnector {
 			MongoCredential credential = MongoCredential.createCredential(Config.dbUser, Config.dbBase, Config.dbPassword.toCharArray());
 			MongoClient mongoClient = new MongoClient(Arrays.asList(new ServerAddress(Config.dbIP, Config.dbPort)), Arrays.asList(credential),options);
 			final Morphia morphia = new Morphia();
-			morphia.mapPackage("tripxyz.model");
 			MongoDBConnector.datastore = morphia.createDatastore(mongoClient, Config.dbBase);
 			MongoDBConnector.datastore.ensureIndexes();
 			return;

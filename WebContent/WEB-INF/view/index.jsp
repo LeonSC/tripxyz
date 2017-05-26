@@ -5,7 +5,7 @@
 <body>
 	<%@ include file="static/nav.jsp"%>
 	<br/>
-	<form>
+	<form method="post" action="${config.rootPath}/answer">
 	<div class="container" style="font-family: '微软雅黑', Helvetica, sans-serif;">
 		<div class="row">
 			<div class="col-sm-12">
@@ -116,16 +116,16 @@
 				</p>
 				<p><strong>9, 您是否期待参加日本的动漫展?</strong></p>
 				<p>
-					<input type="radio" value="1" name="two"/> 1 &nbsp;
-					<input type="radio" value="2" name="two"/> 2 &nbsp;
-					<input type="radio" value="3" name="two"/> 3 &nbsp;
-					<input type="radio" value="4" name="two"/> 4 &nbsp;
-					<input type="radio" value="5" name="two" checked/> 5 &nbsp;
-					<input type="radio" value="6" name="two"/> 6 &nbsp;
-					<input type="radio" value="7" name="two"/> 7 &nbsp;
-					<input type="radio" value="8" name="two"/> 8 &nbsp;
-					<input type="radio" value="9" name="two"/> 9 &nbsp;
-					<input type="radio" value="10" name="two"/> 10 &nbsp;
+					<input type="radio" value="1" name="nine"/> 1 &nbsp;
+					<input type="radio" value="2" name="nine"/> 2 &nbsp;
+					<input type="radio" value="3" name="nine"/> 3 &nbsp;
+					<input type="radio" value="4" name="nine"/> 4 &nbsp;
+					<input type="radio" value="5" name="nine" checked/> 5 &nbsp;
+					<input type="radio" value="6" name="nine"/> 6 &nbsp;
+					<input type="radio" value="7" name="nine"/> 7 &nbsp;
+					<input type="radio" value="8" name="nine"/> 8 &nbsp;
+					<input type="radio" value="9" name="nine"/> 9 &nbsp;
+					<input type="radio" value="10" name="nine"/> 10 &nbsp;
 				</p>
 				<p class="h3">选择题</p>
 				<p><strong>1, 您的职业?</strong></p>
@@ -160,6 +160,7 @@
 				<p>
 					<strong>您的手机号:</strong> &nbsp;<input type="text" value="" name="mobile" style="border:none;border-bottom: 1px solid #000"/>
 				</p>
+				<p><input class="btn btn-primary" type="submit" name="sone" value="提交"/></p>
 				<br/>
 				<p><strong>附加开放问答题, 每题会根据回答内容奉上50-100元不等的代金券:</strong></p>
 				<p><strong>1, 您喜欢君的名字这部动画电影吗? 如果您发现, 这部电影几乎是实体取景, 您愿意去追寻这样的足迹吗? 比如:</strong></p>
@@ -175,6 +176,7 @@
 				<p><textarea style="width:90%;height:15rem" name="answerone"></textarea></p>
 				<p><strong>2, 您希望在日本, 看到什么样的场景? 足迹? 故事? 或者您希望设计一条独一无二的路线?</strong></p>
 				<p><textarea style="width:90%;height:15rem" name="answertwo"></textarea></p>
+				<p><input class="btn btn-primary" type="submit" name="stwo" value="提交"/></p>
 			</div>
 		</div>
 	</div>
